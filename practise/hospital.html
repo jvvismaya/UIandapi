@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <title>Hospital</title>
+        <link rel="stylesheet" href="style3.css">
+        <script src="b.js"></script>
+
+    </head>
+    <body>
+        <div class="navbar">
+            <li><a href="register.html">Login</a></li>
+            <li><a href="index.html">canteen</a></li>
+        </div>
+    </body>
+
+    <h2>Get All details</h2>
+    
+    <button id="get-all">Get all</button> 
+
+    <ul id="ptdetails">
+
+    </ul>
+
+
+    <h2>delete patient details</h2>
+    <p>enter pid:<input type="text" id="deletepatient"></p>
+    <button id="delete">Delete</button>    
+
+    <h2>get based on id</h2>
+    <p>Patientdetails:<input type="text" id="getdetails"></p>
+    <button id="getalldetails">View</button>
+    <ul id="pedetails"></ul>
+
+    <h2>Add the patient</h2>
+    <div>
+    <table>
+        <tr>
+            <td>patient Id</td>
+            <td><input type="text" id="pid"></td>
+        </tr>
+        <tr>
+            <td>patient name</td>
+            <td><input type="text" id="pname"></td>
+        </tr>
+        <tr>
+            <td>patient concern</td>
+            <td><input type="text" id="con"></td>
+        </tr>
+        <tr>
+            <td>dname</td>
+            <td><input type="text" id="dname"></td>
+        </tr>
+        <tr>
+            <td>fee</td>
+            <td><input type="text" id="fei"></td>
+        </tr>
+        <tr colspan = "2">
+
+            <td><input type="button" value="add" id="addBtn"></td>
+            </tr>
+    </table>
+</div>
+
+<h4>Update Doctor Name</h4>
+
+        <p>Enter the patid: <input type="text" id="getpatid"></p>
+
+        <p>Enter the New DoctorName: <input type="text" id="getNewdoc"></p>
+
+        <button id="update-doctorname">Update</button>
+
+        <ul id="updateDetails">
+
+        </ul>
+</html>

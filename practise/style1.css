@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Nanum+Pen+Script&family=Rock+Salt&display=swap');
+
+*{
+  font-family: 'Mochiy Pop P One', sans-serif;
+  box-sizing:border-box;
+}
+.navbar{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  background-color: #97491c;
+}
+.navbar li{
+  float:right;
+}
+.navbar li a{
+  text-decoration: none;
+  color:white;
+  display:block;
+  padding:14px 16px;
+}
+.navbar li a:hover{
+ color: peru;
+}
+.heading{
+  
+  color:black;  
+  
+  text-align: center;
+ 
+}
+h4 {
+	font-size: 12px;
+}
+h3 {
+	color:black;
+}
+.button{
+	padding:5px;
+	background-color:peru;
+	color:white;
+	border-radius:8px;
+  border:white;
+}
+.button:hover{
+	background-color:#97491c;
+}
+.img-container {
+  border-style:solid;
+  border-color:#97491c;
+  border-radius: 25px;
+  float:left;
+  width:20;
+  margin-left:15px;
+  padding:10px;
+  
+}
+.clearfix::after{
+  content:both"";
+  display:table;
+}
+
